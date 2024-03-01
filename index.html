@@ -1,59 +1,227 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Exercicio</title>
-    <link href="estilo.css" rel="stylesheet" type="text/css"/>
-</head>
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="assets/js/color-modes.js"></script>
 
-<body style="background-color: #FFD8DD;
-">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Fotografia</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+      .imagemDeFundo {
+        background-image: url(fundo.jpg);
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+  <header>
+
+    <div class="position-relative overflow-hidden text-center bg-body-tertiary imagemDeFundo">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold text-white">Design e Fotografia</h1>
+        <h3 class="fw-normal text-muted mb-3 text-white">Capture momentos, eternize memórias: a arte da
+          fotografia está aqui!</h3>
+
+      </div>
+
+    </div>
+
+
+  </header>
 <div class="container">
-    <div>
-        <ul>
-            <img src="imagem/logo.png" alt="some text" width=60 height=40>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">contato</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="preco.html">Preços</a></li>
-            <li><a href="sobre.html">Sobre nós</a></li>
-            <img src="imagem/logo.png" alt="some text" width=60 height=40>
-        </ul>
+
+
+  <main>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Porfólio</h1>
     </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-3">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="4.jpg" width="350">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="2.jpg" width="350">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="3.jpg" width="350">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-3">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="5.jpg" width="350">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="6.jpg" width="350">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="7.jpg" width="350">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis"><img src="camera.gif" style="max-height: 140px"></h1>
+      <p class="fs-5 text-body-secondary">A fotografia é a arte de congelar momentos, eternizando instantes fugazes em um quadro que captura a essência da vida.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-3">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Atemporal</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Fotografias capturam momentos específicos no tempo, preservando-os para sempre.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Único</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>A fotografia tem o poder de evocar emoções profundas e conexões pessoais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Elegante</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>A fotografia, quando bem executada, pode capturar a beleza e a elegância de diferentes assuntos, sejam paisagens, retratos, objetos ou eventos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p class="text-center">Fotografia - © 2024</p>
+  </footer>
 </div>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-<div class="wrapper">
-    <div style="margin-left: 80px; font-size:14px;">
-        <p style="font-size:20px;"> O que é fotografia?</p>
-
-        Embora permita muitas interpretações, a fotografia é uma criação de uma visão para interpretar a realidade.
-
-        Para o fotógrafo, fotografar transcende a cópia fiel ou reprodução exata da realidade para ser uma forma de contar uma história.
-
-        O ato fotográfico em si pode parecer um processo simples de registrar um momento.
-
-        Mas, conhecendo mais a fundo, fotografar requer a necessidade de conhecimentos e habilidades específicas que são muita vezes ignoradas devido a função automática nas câmeras.
-
-        Entre as habilidades que um fotógrafo precisa ter estão:
-
-        manusear uma moderna câmera fotográfica;
-        Conhecer cores, sombras e técnicas de composição;
-        Dominar acessórios fotográficos como lente e flash;
-        Criatividade para cenas, poses e direção;
-        Usar técnicas e ferramentas digitais para organizar e editar as fotos.
-        No aspecto comercial, a fotografia também se expandiu e hoje o mercado de serviços fotográfico é próspero e muito diverso. Caso seu interesse não é tanto pela história da fotografia e sim negócios, vá direto em números do mercado.
-
-        Geralmente, os fotógrafos trabalham como empreendedores autônomos, mas há também pequenos e grandes negócios que prestam serviços fotográficos, que são os estúdios e empresas produtoras de mídia e eventos.
-
-    </div>
-    <div>
-        <img style="margin-left: 80px;" src="imagem/fotografa.jpg" alt="some text" width=600px height=400px>
-    </div>
-
-    <div class="footer">
-        <p>A fotografia é uma das poucas coisas que tem poder sobre o tempo: ela o paralisa.</p>
-    </div>
-
-
-</div>
-
-</body>
+    </body>
 </html>
